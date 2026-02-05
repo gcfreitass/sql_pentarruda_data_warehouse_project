@@ -24,6 +24,14 @@ This project involves:
 
 ---
 
+## Data Architecture
+
+The data architecture for this project includes **Staging** and **Data Warehouse** layers:
+![Data Architecture](docs/data_architecture.png)
+
+1. **Staging Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Data Warehouse Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
 ## Important Links & Tools:
 
 Everything is for Free!
@@ -52,11 +60,11 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
-## 🛡️ License
+## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
-## 🌟 About Me
+## About Me
 
 Hi there! I'm **Gabriel Cardoso Freitas**.
 
