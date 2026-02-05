@@ -29,7 +29,7 @@ This repository is an excellent resource for professionals and students looking 
 The data architecture for this project includes **Staging** and **Data Warehouse** layers:
 ![Data Architecture](docs/data_architecture.png)
 
-1. **Staging Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+1. **Staging Layer**: Stores raw data as-is from the source systems. Data is ingested from SQL Files into SQL Server Database.
 2. **Data Warehouse Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ## Important Links & Tools:
