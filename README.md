@@ -58,6 +58,27 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 ---
 
+## 📂 Repository Structure
+```
+sql_pentarruda_data_warehouse_project/
+│
+├── datasets/                           # Raw dataset used for the project (CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── data_architecture.png           # Draw.io file shows the project's architecture
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+```
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
